@@ -1,0 +1,177 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  flex-grow: 1;
+}
+
+header .logo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+
+#banner {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  position: relative;
+}
+
+#banner h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#banner div {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#banner img.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+#organizador {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#organizador h3 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+#organizador .form-group {
+  margin-bottom: 15px;
+}
+
+#organizador label {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  display: block;
+}
+
+#organizador input,
+#organizador textarea {
+  font-size: 1.2em;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#organizador button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#organizador button:hover {
+  background-color: #0056b3;
+}
+
+
+#lista-destinos {
+  margin-top: 20px;
+}
+
+#lista-destinos .list-group-item {
+  font-size: 1.2em;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#lista-destinos .btn {
+  font-size: 1em;
+  padding: 5px 10px;
+}
+
+
+#info {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#info button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+#info img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  header .logo {
+    width: 70px;
+  }
+
+  #banner,
+  #organizador,
+  #info {
+    padding: 20px;
+  }
+
+  #organizador .form-group {
+    margin-bottom: 10px;
+  }
+}
